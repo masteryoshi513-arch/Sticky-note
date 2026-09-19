@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "paper": "pink",
+  "html": "<div><b>Welcome!</b></div><div><br></div><div>This is my sticky note. I can <b>bold</b> things and <mark>highlight the important bits</mark>.</div><div><br></div><div>Open <b>editor.html</b> to change this text.</div>",
+  "updated": "2026-09-19T00:00:00.000Z"
+}
