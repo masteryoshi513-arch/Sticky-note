@@ -127,7 +127,7 @@
     note.classList.add('ready');
   }
 
-  fetch('note.json?t=' + Date.now(), { cache: 'no-store' })
+  fetch('hirola.json?t=' + Date.now(), { cache: 'no-store' })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (data) {
       if (!data || typeof data.html !== 'string') throw new Error('bad note');
